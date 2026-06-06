@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Canon Indonesia</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+
+    <div class="logo">
+
+  <img
+    src="canon.png"
+    alt="Canon Logo"
+  />
+</div>
+
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#bantuan">Bantuan</a>
+    </nav>
+
+    <div class="search">
+
+
+      <span>Indonesia</span>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+
+    <img
+      src="berada.png"
+    />
+
+    <div class="overlay"></div>
+
+    <div class="hero-text">
+
+      <h2>Canon</h2>
+
+      <p>
+        Explore the world of imaging and photography
+        with Canon Indonesia.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- KATEGORI -->
+  <section id="kategori" class="kategori">
+
+    <h2>Kategori</h2>
+
+    <div class="kategori-grid">
+
+      <!-- CAMERA -->
+      <div class="card" onclick="showProduk('camera')">
+
+        <img
+          src="kamera.png"
+        />
+
+        <h3>Camera</h3>
+
+      </div>
+
+      <!-- LENSA -->
+      <div class="card" onclick="showProduk('lensa')">
+
+        <img
+          src="lensa.png"
+        />
+
+        <h3>Lensa</h3>
+
+      </div>
+
+      <!-- PRINTER -->
+      <div class="card" onclick="showProduk('printer')">
+
+        <img
+          src="printer.png"
+        />
+
+        <h3>Printer</h3>
+
+      </div>
+
+      <!-- AKSESORIS -->
+      <div class="card" onclick="showProduk('aksesoris')">
+
+        <img
+          src="aksesoris.png"
+        />
+
+        <h3>Aksesoris</h3>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PRODUK -->
+  <section class="produk" id="produkSection">
+
+    <h2 id="judulProduk">Produk Canon</h2>
+
+    <div class="produk-grid" id="produkGrid">
+
+    </div>
+
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="tentang">
+
+    <h2>Tentang Kami</h2>
+
+    <p>
+      Canon adalah perusahaan teknologi imaging global
+      yang menghadirkan inovasi kamera, lensa, printer,
+      dan solusi fotografi modern dengan kualitas terbaik.
+    </p>
+
+  </section>
+
+  <!-- BANTUAN -->
+  <section id="bantuan" class="bantuan">
+
+    <h2>Bantuan</h2>
+
+    <p>
+      Temukan panduan produk dan informasi resmi Canon Indonesia.
+    </p>
+
+    <button>Hubungi Kami</button>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-left">
+
+      <h2>Canon</h2>
+
+      <span>Indonesia</span>
+
+    </div>
+
+<!-- DETAIL POPUP -->
+<!-- DETAIL POPUP -->
+<div
+  class="detail-popup"
+  id="detailBox"
+>
+
+</div>
+
+</div>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
